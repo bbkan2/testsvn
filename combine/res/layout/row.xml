@@ -1,0 +1,30 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp"
+         >
+
+    <TextView
+        android:id="@+id/notesContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="notesContent" 
+        android:singleLine="true"
+        android:textColor="#3399CC"       
+        />    
+
+    <TextView
+        android:id="@+id/notesTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/notesContent"
+        android:layout_marginLeft="14dp"
+         android:layout_alignParentRight="true"
+        android:text="notesTag"
+        android:textColor="#999"
+        android:textSize="10dp"
+        android:textStyle="italic" />
+        
+    </RelativeLayout>

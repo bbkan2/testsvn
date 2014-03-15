@@ -1,0 +1,24 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical" 
+    >
+<LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:padding="10dp"
+        >
+		<EditText 
+        android:id="@+id/contentID"
+        android:gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="content" 
+      
+         />
+	    
+</LinearLayout>
+</ScrollView>	    

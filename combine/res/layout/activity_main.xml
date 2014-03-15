@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"   
+      android:orientation="vertical"  
+      android:id="@+id/llId">
+    
+		<EditText 
+        android:id="@+id/myFilter"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" 
+        android:hint="Please enter key word"
+         />
+		
+		<EditText 
+        android:id="@+id/testET"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" 
+        android:hint="testET"
+      
+         />
+		 <ListView
+        android:id="@+id/lvID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:longClickable="true"
+        android:layout_weight="1" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+  <Button
+        android:id="@+id/add_button_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:onClick="add" />   
+        
+    <Button
+        android:id="@+id/search_button_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="search"
+        android:onClick="test" />
+   </LinearLayout>
+</LinearLayout>

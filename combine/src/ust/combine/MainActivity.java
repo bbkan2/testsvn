@@ -26,7 +26,7 @@ public class MainActivity extends Activity{
 	// SQLite helper: responsible for create, update and delete database
 	private MySQLiteHelper sqlHelper;
 	
-	// database object that executes query and update to database / table
+	// database object that executes query and update to database / tables
 	private SQLiteDatabase mydb;
 	
 	
